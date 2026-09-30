@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#081a35">
+    <meta name="description"
+        content="Chowra Logistics and Couriers Limited. Reliable domestic and international logistics solutions designed to keep business moving.">
+    <title>Chowra Logistics | Reliable Logistics. Smarter Delivery.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="announcement">
+        <span>
+            <i data-lucide="headset"></i> Customer support:
+            <a href="#contact">We're here to help</a>
+        </span>
+        <span>Reliable Logistics. Smarter Delivery.</span>
+    </div>
+    <header class="site-header" id="site-header">
+        <a class="brand" href="#home" aria-label="Chowra Logistics home">
+            <span class="brand-symbol">
+                <i data-lucide="navigation"></i>
+            </span>
+            <span class="brand-wordmark">CHOWRA
+                <span>LOGISTICS & COURIERS</span>
+            </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+            aria-controls="main-nav">
+            <i data-lucide="menu"></i>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+            <a class="nav-link active" href="#home">Home</a>
+            <div class="nav-item nav-services">
+                <button class="nav-link mega-trigger" type="button" aria-expanded="false">Services
+                    <i data-lucide="chevron-down"></i>
+                </button>
+                <div class="mega-menu">
+                    <div>
+                        <span class="mega-kicker">MOVE WITH CONFIDENCE</span>
+                        <strong>Solutions for every shipment.</strong>
+                        <p>From one parcel to your entire supply chain.</p>
+                        <a href="#services">Explore all services
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                    <a href="#services">
+                        <i data-lucide="package-check"></i>
+                        <span><b>Domestic courier</b>
+                            <small>Reliable delivery across India</small>
+                        </span>
+                    </a>
+                    <a href="#services">
+                        <i data-lucide="globe-2"></i>
+                        <span><b>International</b>
+                            <small>Global reach, local care</small>
+                        </span>
+                    </a>
+                    <a href="#express">
+                        <i data-lucide="zap"></i>
+                        <span><b>Express delivery</b>
+                            <small>Priority for time-critical shipments</small>
+                        </span>
+                    </a>
+                    <a href="#ecommerce">
+                        <i data-lucide="shopping-bag"></i>
+                        <span><b>E-commerce</b>
+                            <small>End-to-end fulfillment</small>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <a class="nav-link" href="#solutions">Solutions</a><a class="nav-link" href="#network">Network</a><a
+                class="nav-link" href="#about">About us</a><a class="nav-link" href="#contact">Contact</a>
+            <div class="nav-actions"><a class="nav-track" href="#track">Track shipment</a><a
+                    class="button button-orange button-small" href="#quote">Get a quote <i
+                        data-lucide="arrow-up-right"></i></a></div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="hero" id="home">
+            <div class="hero-image" role="img" aria-label="Modern freight truck moving cargo through a logistics hub">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-route" aria-hidden="true"><span class="route-point point-one"></span><span
+                    class="route-point point-two"></span><span class="route-point point-three"></span><span
+                    class="route-dash"></span></div>
+            <div class="hero-content container">
+                <div class="hero-copy"><span class="eyebrow eyebrow-light"><i></i> CHOWRA LOGISTICS AND COURIERS
+                        LIMITED</span>
+                    <h1>Moving What Matters.<br>Delivering <span>What's Next.</span></h1>
+                    <p>Reliable domestic and international logistics solutions designed to keep your business and
+                        deliveries moving.</p>
+                    <div class="hero-actions"><a class="button button-orange" href="#track">Track shipment <i
+                                data-lucide="arrow-up-right"></i></a><a class="button button-glass" href="#quote">Get a
+                            quote <i data-lucide="arrow-up-right"></i></a><a class="hero-tertiary" href="#quote"><i
+                                data-lucide="calendar-plus"></i> Book a pickup</a></div>
+                    <div class="hero-proof"><span class="proof-check"><i data-lucide="badge-check"></i></span><span>One
+                            accountable partner, from pickup to delivery.</span></div>
+                </div>
+                <div class="hero-data"><span class="data-pulse"></span><span>SAMPLE NETWORK VIEW</span><strong>DEMO COVERAGE OVERVIEW</strong><small>Illustrative · India + global routes</small></div>
+            </div>
+            <div class="hero-bottom container"><span>01 / BUILT TO MOVE BUSINESS FORWARD</span><a
+                    href="#services">Discover Chowra <i data-lucide="arrow-down"></i></a></div>
+        </section>
+        <section class="tracking-wrap" id="track">
+            <div class="tracking-card container">
+                <div class="tracking-intro"><span class="tracking-icon"><i data-lucide="scan-line"></i></span>
+                    <div><span class="eyebrow">SHIPMENT VISIBILITY</span>
+                        <h2>Track Your Shipment</h2>
+                        <p>Get the latest status on your delivery.</p>
+                    </div>
+                </div>
+                <form class="tracking-form" id="tracking-form"><label class="sr-only" for="tracking-number">AWB or
+                        tracking number</label><i data-lucide="search"></i><input id="tracking-number" name="tracking"
+                        value="CHW123456789" placeholder="Enter AWB / Tracking Number" required><button
+                        class="button button-blue" type="submit">Track shipment <i
+                            data-lucide="arrow-right"></i></button></form>
+                <div class="tracking-example">Try demo: <button type="button" id="demo-tracking">CHW123456789</button>
+                </div>
+                <div class="tracking-result" id="tracking-result" aria-live="polite" hidden></div>
+            </div>
+        </section>
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat-item"><strong data-count="15" data-suffix="+">15+</strong><span>Years of
+                        experience</span></div>
+                <div class="stat-item"><strong data-count="500" data-suffix="+">500+</strong><span>Cities covered</span>
+                </div>
+                <div class="stat-item"><strong data-count="50" data-suffix="K+">50K+</strong><span>Shipments
+                        delivered</span></div>
+                <div class="stat-item"><strong data-count="98" data-suffix="%">98%</strong><span>On-time delivery</span>
+                </div>
+                <div class="stat-item"><strong class="stat-support">24/7</strong><span>Customer support</span></div>
+            </div>
+            <p class="stats-note">Illustrative company metrics for this assignment demo.</p>
+        </section>
+        <section class="services section-pad" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <div><span class="eyebrow">LOGISTICS, WITHOUT THE GUESSWORK</span>
+                        <h2>Solutions built around<br><span>your business.</span></h2>
+                    </div>
+                    <p>Whatever you're moving, wherever it's going, our connected services make the journey simpler.</p>
+                </div>
+                <div class="service-grid">
+                    <article class="service-card"><span class="service-num">01</span>
+                        <div class="service-icon"><i data-lucide="package-check"></i></div>
+                        <h3>Domestic Courier</h3>
+                        <p>Fast and reliable deliveries across India, with visibility at every step.</p><a
+                            href="#quote">Learn more <i data-lucide="arrow-up-right"></i></a>
+                    </article>
+                    <article class="service-card"><span class="service-num">02</span>
+                        <div class="service-icon"><i data-lucide="globe-2"></i></div>
+                        <h3>International Courier</h3>
+                        <p>Global shipping with end-to-end shipment visibility and dependable support.</p><a
+                            href="#quote">Learn more <i data-lucide="arrow-up-right"></i></a>
+                    </article>
+                    <article class="service-card"><span class="service-num">03</span>
+                        <div class="service-icon"><i data-lucide="zap"></i></div>
+                        <h3>Express Delivery</h3>
+                        <p>Time-critical delivery options for urgent, high-priority shipments.</p><a
+                            href="#express">Learn more <i data-lucide="arrow-up-right"></i></a>
+                    </article>
+                    <article class="service-card"><span class="service-num">04</span>
+                        <div class="service-icon"><i data-lucide="shopping-cart"></i></div>
+                        <h3>E-Commerce Logistics</h3>
+                        <p>Scalable fulfillment and last-mile delivery that grows with your orders.</p><a
+                            href="#ecommerce">Learn more <i data-lucide="arrow-up-right"></i></a>
+                    </article>
+                    <article class="service-card"><span class="service-num">05</span>
+                        <div class="service-icon"><i data-lucide="container"></i></div>
+                        <h3>Freight & Cargo</h3>
+                        <p>Reliable movement for heavy, commercial and complex shipments.</p><a href="#quote">Learn more
+                            <i data-lucide="arrow-up-right"></i></a>
+                    </article>
+                    <article class="service-card"><span class="service-num">06</span>
+                        <div class="service-icon"><i data-lucide="map-pin-house"></i></div>
+                        <h3>Door-to-Door Delivery</h3>
+                        <p>Pickup, transportation and final delivery handled end to end.</p><a href="#quote">Learn more
+                            <i data-lucide="arrow-up-right"></i></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="express-section" id="express">
+            <div class="express-visual">
+                <div class="express-photo" role="img"
+                    aria-label="Courier professional handling a parcel for express delivery"></div>
+                <div class="express-shade"></div>
+                <div class="express-tag"><i data-lucide="zap"></i><span>PRIORITY<br>IN MOTION</span></div>
+                <div class="express-route-label"><span class="route-live"></span> EXPRESS NETWORK · LIVE</div>
+            </div>
+            <div class="express-copy"><span class="eyebrow">WHEN EVERY HOUR COUNTS</span>
+                <h2>Need it there<br><span>faster?</span></h2>
+                <p>Give urgent shipments the priority they deserve. Express delivery brings dedicated handling and
+                    dependable updates together, so your time-sensitive commitments stay on track.</p>
+                <ul class="check-list">
+                    <li><i data-lucide="check"></i> Priority handling</li>
+                    <li><i data-lucide="check"></i> Faster transit options</li>
+                    <li><i data-lucide="check"></i> Real-time tracking</li>
+                    <li><i data-lucide="check"></i> Delivery notifications</li>
+                    <li><i data-lucide="check"></i> Dedicated support</li>
+                </ul><a class="button button-blue" href="#quote">Explore express delivery <i
+                        data-lucide="arrow-up-right"></i></a>
+            </div>
+        </section>
+        <section class="ecommerce-section" id="ecommerce">
+            <div class="container ecommerce-grid">
+                <div class="ecommerce-copy"><span class="eyebrow eyebrow-light">BUILT FOR THE SPEED OF COMMERCE</span>
+                    <h2>Powering the next generation of <span>e-commerce.</span></h2>
+                    <p>From first-mile pickup to the customer's door, bring your fulfillment journey into one connected
+                        view.</p><a class="button button-orange" href="#solutions">Explore e-commerce solutions <i
+                            data-lucide="arrow-up-right"></i></a>
+                    <div class="flowline">
+                        <div><span>01</span><b>Order</b></div><i data-lucide="arrow-right"></i>
+                        <div><span>02</span><b>Warehouse</b></div><i data-lucide="arrow-right"></i>
+                        <div><span>03</span><b>Dispatch</b></div><i data-lucide="arrow-right"></i>
+                        <div><span>04</span><b>Last mile</b></div><i data-lucide="arrow-right"></i>
+                        <div><span>05</span><b>Customer</b></div>
+                    </div>
+                </div>
+                <div class="commerce-dashboard">
+                    <div class="dash-top">
+                        <div><span class="dash-dot"></span> OPERATIONS OVERVIEW</div><span>DEMO DATA · TODAY</span>
+                    </div>
+                    <div class="dash-title">Your delivery pulse <i data-lucide="ellipsis"></i></div>
+                    <div class="dash-metrics">
+                        <div><span>Orders today</span><strong>12,480</strong><small><i data-lucide="trending-up"></i>
+                                12.8% this week</small></div>
+                        <div><span>Delivered</span><strong>98.4%</strong><small><i data-lucide="circle-check"></i>
+                                Delivery success</small></div>
+                    </div>
+                    <div class="dash-chart">
+                        <div class="chart-labels"><span>SHIPMENT FLOW</span><span>MON — SUN</span></div>
+                        <div class="chart-bars"><i style="--bar:35%"></i><i style="--bar:54%"></i><i
+                                style="--bar:43%"></i><i style="--bar:68%"></i><i style="--bar:57%"></i><i
+                                style="--bar:83%"></i><i style="--bar:72%"></i><i style="--bar:95%"></i><i
+                                style="--bar:76%"></i><i style="--bar:88%"></i><i style="--bar:65%"></i><i
+                                style="--bar:100%"></i></div>
+                    </div>
+                    <div class="dash-footer"><span><i data-lucide="rotate-ccw"></i> Returns <b>2.1%</b></span><span>LIVE
+                            OPERATIONS VIEW <i data-lucide="arrow-up-right"></i></span></div>
+                    <div class="dash-float"><span><i data-lucide="truck"></i></span>
+                        <div><small>IN TRANSIT</small><b>1,286 shipments</b></div><span class="float-status">ON
+                            ROUTE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solutions-section section-pad" id="solutions">
+            <div class="container">
+                <div class="section-heading">
+                    <div><span class="eyebrow">INDUSTRY, UNDERSTOOD</span>
+                        <h2>Logistics that scale<br>with <span>your business.</span></h2>
+                    </div>
+                    <p>Industry-aware service design helps keep your operations moving, wherever growth takes you.</p>
+                </div>
+                <div class="solution-grid">
+                    <article><i data-lucide="store"></i>
+                        <h3>Retail</h3>
+                        <p>Keep shelves stocked and customer orders moving with flexible delivery support.</p>
+                    </article>
+                    <article><i data-lucide="shopping-bag"></i>
+                        <h3>E-commerce</h3>
+                        <p>Support every order with fulfillment visibility and a dependable last mile.</p>
+                    </article>
+                    <article><i data-lucide="factory"></i>
+                        <h3>Manufacturing</h3>
+                        <p>Move components and finished goods with coordinated freight options.</p>
+                    </article>
+                    <article><i data-lucide="briefcase-medical"></i>
+                        <h3>Healthcare</h3>
+                        <p>Prioritize secure, carefully managed movement for sensitive shipments.</p>
+                    </article>
+                    <article><i data-lucide="landmark"></i>
+                        <h3>Banking & finance</h3>
+                        <p>Support accountable document and business-critical delivery workflows.</p>
+                    </article>
+                    <article><i data-lucide="building-2"></i>
+                        <h3>Corporate</h3>
+                        <p>Build a logistics program around your locations, teams and service needs.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="network-section" id="network">
+            <div class="container network-grid">
+                <div class="network-copy"><span class="eyebrow">A CONNECTED DELIVERY NETWORK</span>
+                    <h2>Connected across India.<br><span>Ready for the world.</span></h2>
+                    <p>From city, district and state deliveries across India to international shipments between
+                        countries, Chowra coordinates pickup, long-haul movement and final delivery. Routes use road,
+                        air cargo or ocean freight according to the shipment and destination.</p>
+                    <div class="network-numbers">
+                        <div><strong>500+</strong><span>CITIES COVERED*</span></div>
+                        <div><strong>1,000+</strong><span>DELIVERY LOCATIONS*</span></div>
+                        <div><strong>24/7</strong><span>NETWORK VISIBILITY</span></div>
+                    </div><a class="button button-blue" href="#quote">Check route availability <i
+                            data-lucide="arrow-up-right"></i></a><small class="network-disclaimer">*Illustrative
+                        assignment figures, subject to operational verification.</small>
+                </div>
+                <div class="network-visual">
+                    <div class="network-visual-head"><span><i data-lucide="globe-2"></i> GLOBAL + DOMESTIC NETWORK</span><strong>One connected journey</strong><small>Illustrative international routes</small></div>
+                    <div class="global-map" role="img"
+                        aria-label="Illustrative global courier routes connecting India with North America, Europe, the Middle East, Africa, East Asia and Oceania">
+                        <svg class="world-art" viewBox="0 0 800 420" aria-hidden="true">
+                            <g class="world-land">
+                                <path d="m54 119 10-14 15-5 4-12 17-4 12-12 19-4 12-13 17 1 12-7 21 4 10 9 18-3 18 9 20 2 12 11-5 10-15 4-7 12-15 3-10 12-19 2-5 12-16 5-5 15-13 7-4 17-13 8-6 17-13 2-8-11-13-4-8-13-13-4-6-15 6-15-8-11 5-14-5-9Z" />
+                                <path d="m93 78-13-8-4-11 11-5 10 8Z" />
+                                <path d="m244 52 11-12 18 2 11 7-5 10-15 3-11-4Z" />
+                                <path d="m163 205 13 6 8 12 13 5 6 14-4 14 8 13-2 17-10 14-4 18-9 17-5 27-10 24-8-14-2-20-9-16 1-15-10-15 7-19-7-14 10-16-6-14 10-12-6-17Z" />
+                                <path d="m295 82 10-12 14-5 15 4 9 10-8 8-14-1-8 8-14-2Z" />
+                                <path d="m325 106 12-12 17 1 7 8 17-3 11 9-8 8-16-2-7 10-15-2-8-9-13 1Z" />
+                                <path d="m355 132 17-10 11 5 9 12 17 4 12 13 15 1 12 11-6 13-13 5-4 18-13 12-7 22-12 19-6 26-10 17-5 26-10 13-8-18-1-21-10-15 2-15-10-14 5-16-9-14 3-15-10-15 6-15-12-13 5-13-12-13Z" />
+                                <path d="m414 96 18-12 18 3 8 10-8 9-17-2-8 7-13-5Z" />
+                                <path d="m465 106 23 4 18-3 14 9 22-1 16 9 22-2 12 11 23-3 17 9 19-2 13 10-6 12-18 4-6 12-20 3-9 12-17 1-9 13-20-4-8 13-17-3-12-12-17 1-9-12-19 3-13-8-13 3-12-12-17 1-11-12-18 1-10-12-17-4-3-11Z" />
+                                <path d="m604 178 8-7 7 8-2 16-7 12-6-10Z" />
+                                <path d="m562 250 17-1 10 7 17 1 13 10 17 3 11 12-8 11-17-2-12-8-16-1-10-10-15-3-10-9Z" />
+                                <path d="m620 326 17-8 18 3 16 10 14 2 8 12-11 12-16-3-13 4-17-6-13 2-10-10 8-9Z" />
+                                <path d="m695 230 6-12 8 5 3 17-7 14-8-7Z" />
+                            </g>
+                            <g class="global-routes">
+                                <path d="M454 205 Q352 84 172 115" />
+                                <path d="M454 205 Q411 93 356 112" />
+                                <path d="M454 205 Q463 151 497 151" />
+                                <path d="M454 205 Q528 172 602 183" />
+                                <path d="M454 205 Q520 251 567 281" />
+                                <path d="M454 205 Q414 261 408 286" />
+                                <path d="M454 205 Q532 304 649 347" />
+                                <path d="M454 205 Q310 204 191 237" />
+                            </g>
+                        </svg>
+                        <span class="global-node node-north-america"><i></i><b>NORTH AMERICA</b></span>
+                        <span class="global-node node-europe"><i></i><b>EUROPE</b></span>
+                        <span class="global-node node-middle-east"><i></i><b>MIDDLE EAST</b></span>
+                        <span class="global-node node-east-asia"><i></i><b>EAST ASIA</b></span>
+                        <span class="global-node node-africa"><i></i><b>AFRICA</b></span>
+                        <span class="global-node node-oceania"><i></i><b>OCEANIA</b></span>
+                        <span class="global-node node-india"><i></i><b>CHOWRA · INDIA</b></span>
+                        <div class="global-map-caption"><i data-lucide="globe-2"></i><span>ILLUSTRATIVE INTERNATIONAL COURIER LANES</span></div>
+                    </div>
+                    <div class="journey-flow" aria-label="Shipment journey from local pickup through transport to final delivery">
+                        <div><i data-lucide="map-pin"></i><span><b>Pickup</b><small>City, district or state</small></span></div>
+                        <i class="journey-arrow" data-lucide="arrow-right"></i>
+                        <div><i data-lucide="route"></i><span><b>Linehaul</b><small>Road, air or ocean</small></span></div>
+                        <i class="journey-arrow" data-lucide="arrow-right"></i>
+                        <div><i data-lucide="package-check"></i><span><b>Final delivery</b><small>Destination country or district</small></span></div>
+                    </div>
+                    <div class="transport-modes" aria-label="Transport modes"><div><i data-lucide="truck"></i><span><b>Road</b><small>Pickup & last mile</small></span></div><div><i data-lucide="plane"></i><span><b>Air cargo</b><small>Time-sensitive lanes</small></span></div><div><i data-lucide="ship"></i><span><b>Ocean freight</b><small>International cargo</small></span></div></div>
+                    <div class="india-network"><div class="india-network-title"><i data-lucide="map-pin"></i><span>INDIA DELIVERY NETWORK</span><small>NATIONWIDE REACH</small></div>
+                        <div class="hub-list"><span>Delhi</span><span>Mumbai</span><span>Hyderabad</span><span>Bangalore</span><span>Chennai</span><span>Kolkata</span><span>Pune</span><span>Ahmedabad</span></div>
+                    </div>
+                    <p class="map-disclaimer">Illustrative routes and hubs. International destination coverage varies by service and lane.</p>
+                </div>
+            </div>
+        </section>
+        <section class="quote-section section-pad" id="quote">
+            <div class="container quote-layout">
+                <div class="quote-intro"><span class="eyebrow">PLAN YOUR NEXT SHIPMENT</span>
+                    <h2>Get a quick<br><span>shipping estimate.</span></h2>
+                    <p>Share a few shipment details for an indicative estimate. Final rates and delivery times depend on
+                        route, dimensions and serviceability.</p>
+                    <div class="quote-assurance"><i data-lucide="shield-check"></i><span><b>Clear from the
+                                start</b><small>No obligation. Just a useful place to begin.</small></span></div>
+                </div>
+                <form class="quote-card" id="quote-form">
+                    <div class="quote-card-heading"><span class="quote-step">01</span>
+                        <div>
+                            <h3>Shipment details</h3>
+                            <p>Tell us what you're sending.</p>
+                        </div>
+                    </div>
+                    <div class="form-grid"><label>Pickup location<input name="origin" type="text"
+                                placeholder="City or PIN code" required></label><label>Delivery location<input
+                                name="destination" type="text" placeholder="City or PIN code"
+                                required></label><label>Shipment type<select name="type">
+                                <option value="document">Document</option>
+                                <option value="parcel" selected>Parcel</option>
+                                <option value="cargo">Cargo</option>
+                            </select></label><label>Weight (kg)<input name="weight" type="number" min="0.1" step="0.1"
+                                placeholder="e.g. 2.5" required></label><label>Dimensions (cm)<input name="dimensions"
+                                type="text" placeholder="L × W × H (optional)"></label><label>Delivery speed<select
+                                name="speed">
+                                <option value="standard">Standard</option>
+                                <option value="express">Express</option>
+                                <option value="priority">Priority</option>
+                            </select></label></div><button class="button button-orange quote-submit"
+                        type="submit">Calculate estimate <i data-lucide="arrow-right"></i></button>
+                    <div class="quote-result" id="quote-result" aria-live="polite" hidden></div>
+                </form>
+            </div>
+        </section>
+        <section class="why-section section-pad" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <div><span class="eyebrow">THE CHOWRA STANDARD</span>
+                        <h2>Why businesses<br>choose <span>Chowra.</span></h2>
+                    </div>
+                    <p>Dependable service is built on good people, clear information and systems that work in the
+                        background.</p>
+                </div>
+                <div class="why-grid">
+                    <article><i data-lucide="locate-fixed"></i>
+                        <h3>Real-time tracking</h3>
+                        <p>Know where shipments are and what happens next.</p>
+                    </article>
+                    <article><i data-lucide="shield-check"></i>
+                        <h3>Secure handling</h3>
+                        <p>Thoughtful processes for every handoff.</p>
+                    </article>
+                    <article><i data-lucide="timer"></i>
+                        <h3>Delivery that keeps pace</h3>
+                        <p>Service choices designed around your timelines.</p>
+                    </article>
+                    <article><i data-lucide="badge-indian-rupee"></i>
+                        <h3>Transparent pricing</h3>
+                        <p>Clear estimates to help plan your shipping costs.</p>
+                    </article>
+                    <article><i data-lucide="headset"></i>
+                        <h3>Dedicated support</h3>
+                        <p>Helpful people when you need a real answer.</p>
+                    </article>
+                    <article><i data-lucide="cpu"></i>
+                        <h3>Technology-enabled</h3>
+                        <p>Connected operations and shipment insights.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="technology-section">
+            <div class="container technology-grid">
+                <div class="technology-copy"><span class="eyebrow eyebrow-light">BETTER VISIBILITY. BETTER
+                        DECISIONS.</span>
+                    <h2>Intelligence behind<br><span>every delivery.</span></h2>
+                    <p>One clear view of your shipments helps teams spot exceptions, plan routes and keep customers
+                        informed.</p>
+                    <ul class="tech-list">
+                        <li><i data-lucide="check"></i> Live shipment tracking</li>
+                        <li><i data-lucide="check"></i> Delivery performance</li>
+                        <li><i data-lucide="check"></i> Shipment analytics</li>
+                        <li><i data-lucide="check"></i> Route optimization</li>
+                    </ul><a class="tech-link" href="#track">See shipment tracking <i
+                            data-lucide="arrow-up-right"></i></a>
+                </div>
+                <div class="tech-dashboard">
+                    <div class="tech-sidebar">
+                        <div class="mini-brand"><span class="brand-symbol"><i
+                                    data-lucide="navigation"></i></span><span>CHOWRA</span></div><span
+                            class="side-active"><i data-lucide="layout-dashboard"></i> Overview</span><span><i
+                                data-lucide="package"></i> Shipments</span><span><i data-lucide="map"></i>
+                            Network</span><span><i data-lucide="chart-no-axes-combined"></i> Analytics</span>
+                        <div class="side-avatar">CL<span>Operations</span></div>
+                    </div>
+                    <div class="tech-main">
+                        <div class="tech-topline">
+                            <div><small>MONDAY, SEPTEMBER 28, 2026</small>
+                                <h3>Good morning, team</h3>
+                            </div><button type="button" aria-label="Notifications"><i
+                                    data-lucide="bell"></i><span></span></button>
+                        </div>
+                        <div class="tech-kpis">
+                            <div><span>Active shipments</span><strong>8,642</strong><small class="positive">↑ 8.2% this
+                                    month</small></div>
+                            <div><span>In transit</span><strong>3,184</strong><small>Across all services</small></div>
+                            <div><span>Delivered</span><strong>5,402</strong><small class="positive">96.8% on
+                                    time</small></div>
+                            <div><span>Delayed</span><strong>56</strong><small class="warning">Needs attention</small>
+                            </div>
+                        </div>
+                        <div class="performance-card">
+                            <div class="performance-title">
+                                <div><b>Delivery performance</b><small>Successful deliveries · last 7 days</small></div>
+                                <span>THIS WEEK <i data-lucide="chevron-down"></i></span>
+                            </div>
+                            <div class="performance-chart">
+                                <div class="chart-y"><span>100%</span><span>75%</span><span>50%</span></div>
+                                <div class="chart-area">
+                                    <div class="chart-grid-lines"><i></i><i></i><i></i><i></i></div><svg
+                                        viewBox="0 0 580 150" preserveAspectRatio="none"
+                                        aria-label="Illustrative delivery performance trend">
+                                        <path class="chart-fill"
+                                            d="M0 110 C45 90 62 96 100 72 S160 87 200 65 S260 74 300 49 S360 64 400 40 S460 56 500 28 S550 45 580 18 V150 H0Z" />
+                                        <path class="chart-stroke"
+                                            d="M0 110 C45 90 62 96 100 72 S160 87 200 65 S260 74 300 49 S360 64 400 40 S460 56 500 28 S550 45 580 18" />
+                                    </svg>
+                                    <div class="chart-x">
+                                        <span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech-bottom-row">
+                            <div><i data-lucide="route"></i><span><b>Route optimization</b><small>Plans refreshed 4 min
+                                        ago</small></span><i data-lucide="arrow-up-right"></i></div>
+                            <div><i data-lucide="radio"></i><span><b>Network status</b><small>All systems
+                                        operational</small></span><span class="online-dot"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-section section-pad">
+            <div class="container">
+                <div class="testimonial-head">
+                    <div><span class="eyebrow">BUILT ON EVERYDAY PARTNERSHIP</span>
+                        <h2>Trusted by growing <span>businesses.</span></h2>
+                    </div>
+                    <div class="slider-controls"><button type="button" class="testimonial-prev"
+                            aria-label="Previous testimonial"><i data-lucide="arrow-left"></i></button><button
+                            type="button" class="testimonial-next" aria-label="Next testimonial"><i
+                                data-lucide="arrow-right"></i></button></div>
+                </div>
+                <div class="testimonial-slider" id="testimonial-slider">
+                    <article class="testimonial-card">
+                        <div class="quote-mark">“</div>
+                        <p>Chowra has helped us simplify our delivery operations while giving our customers complete
+                            shipment visibility.</p>
+                        <div class="testimonial-person"><span class="person-avatar">AR</span><span><b>Ananya
+                                    Rao</b><small>Operations Director · Northstar Retail</small></span></div><span
+                            class="testimonial-sector">RETAIL & E-COMMERCE</span>
+                    </article>
+                    <article class="testimonial-card">
+                        <div class="quote-mark">“</div>
+                        <p>Having a responsive logistics partner means our teams can focus on customers, not chasing
+                            updates.</p>
+                        <div class="testimonial-person"><span class="person-avatar avatar-two">VK</span><span><b>Vikram
+                                    Khanna</b><small>Supply Chain Lead · Meridian Works</small></span></div><span
+                            class="testimonial-sector">MANUFACTURING</span>
+                    </article>
+                    <article class="testimonial-card">
+                        <div class="quote-mark">“</div>
+                        <p>The flexibility to plan around our peak periods has made a meaningful difference to our
+                            business.</p>
+                        <div class="testimonial-person"><span class="person-avatar avatar-three">SM</span><span><b>Sana
+                                    Mehta</b><small>Founder · Field & Form</small></span></div><span
+                            class="testimonial-sector">CONSUMER GOODS</span>
+                    </article>
+                </div>
+                <div class="partner-logos" aria-label="Fictional customer sectors"><span>northstar<span> /
+                            RETAIL</span></span><span class="logo-serif">MERIDIAN WORKS</span><span
+                        class="logo-spaced">FIELD & FORM</span><span
+                        class="logo-bold">KITE<span>COMMERCE</span></span><span class="logo-serif">EVERWELL</span></div>
+                <p class="fictional-note">Fictional customer names shown for demonstration.</p>
+            </div>
+        </section>
+        <section class="cta-section" id="contact">
+            <div class="cta-routes" aria-hidden="true"></div>
+            <div class="container cta-inner"><span class="eyebrow eyebrow-light">READY WHEN YOU ARE</span>
+                <h2>Ready to move your<br>business <span>forward?</span></h2>
+                <p>From a single parcel to an entire supply chain, Chowra keeps your shipments moving.</p>
+                <div><a class="button button-orange" href="#quote">Book a pickup <i
+                            data-lucide="arrow-up-right"></i></a><a class="button button-outline-light"
+                        href="#quote">Get a quote <i data-lucide="arrow-up-right"></i></a></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-about"><a class="brand footer-brand" href="#home"><span class="brand-symbol"><i
+                                data-lucide="navigation"></i></span><span class="brand-wordmark">CHOWRA<span>LOGISTICS &
+                                COURIERS</span></span></a>
+                    <p>Reliable Logistics. Smarter Delivery.<br>Moving what matters, every day.</p>
+                    <div class="social-links"><a href="#contact" aria-label="LinkedIn"><i
+                                data-lucide="linkedin"></i></a><a href="#contact" aria-label="Instagram"><i
+                                data-lucide="instagram"></i></a><a href="#contact" aria-label="Facebook"><i
+                                data-lucide="facebook"></i></a></div>
+                </div>
+                <div class="footer-column"><button aria-expanded="true">Company <i data-lucide="plus"></i></button>
+                    <div><a href="#about">About us</a><a href="#contact">Careers</a><a href="#contact">Contact</a><a
+                            href="#network">Network</a></div>
+                </div>
+                <div class="footer-column"><button aria-expanded="true">Services <i data-lucide="plus"></i></button>
+                    <div><a href="#services">Domestic courier</a><a href="#services">International courier</a><a
+                            href="#express">Express delivery</a><a href="#ecommerce">E-commerce</a><a
+                            href="#services">Freight & cargo</a></div>
+                </div>
+                <div class="footer-column"><button aria-expanded="true">Solutions <i data-lucide="plus"></i></button>
+                    <div><a href="#solutions">Corporate</a><a href="#solutions">Retail</a><a
+                            href="#solutions">E-commerce</a><a href="#solutions">Enterprise</a></div>
+                </div>
+                <div class="footer-column"><button aria-expanded="true">Support <i data-lucide="plus"></i></button>
+                    <div><a href="#track">Track shipment</a><a href="#contact">Help center</a><a
+                            href="#contact">FAQs</a><a href="#contact">Shipping guidelines</a></div>
+                </div>
+                <div class="footer-contact">
+                    <h3>Let's talk logistics.</h3><a href="tel:+910000000000">+91 00000 00000</a><a
+                        href="mailto:hello@chowralogistics.example">hello@chowralogistics.example</a><span>Corporate
+                        office · India</span><small>Sample contact details for this assignment.</small>
+                </div>
+            </div>
+            <div class="footer-legal"><span>© 2026 Chowra Logistics and Couriers Limited</span>
+                <div><a href="#contact">Privacy policy</a><a href="#contact">Terms & conditions</a><a
+                        href="#contact">Cookie policy</a></div><span>RELIABLE LOGISTICS. SMARTER DELIVERY.</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
