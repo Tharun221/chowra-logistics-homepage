@@ -133,7 +133,6 @@ The interface has been designed for:
 
 ## Project Structure
 
-```text
 CHOWRA-LOGISTICS/
 │
 ├── index.html

@@ -1,0 +1,264 @@
+
+
+.announcement svg {
+    width: 13px;
+    height: 13px;
+    color: #8ca8d6;
+}
+
+.brand-symbol svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 2.5;
+    transform: skew(4deg);
+}
+
+.nav-link svg {
+    width: 12px;
+    height: 12px;
+}
+
+.mega-menu>div a svg {
+    width: 14px;
+}
+
+.mega-menu>a>svg {
+    width: 20px;
+    color: var(--blue);
+}
+
+.button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.menu-toggle svg {
+    width: 23px;
+    height: 23px;
+}
+
+.hero-tertiary svg {
+    width: 15px;
+    color: var(--orange);
+}
+
+.proof-check svg {
+    width: 13px;
+    height: 13px;
+}
+
+.hero-bottom svg {
+    width: 14px;
+    height: 14px;
+    color: var(--orange);
+}
+
+.tracking-icon svg {
+    width: 21px;
+    height: 21px;
+}
+
+.tracking-form>svg {
+    width: 17px;
+    color: #75859a;
+    flex: 0 0 auto;
+}
+
+.service-icon svg {
+    width: 21px;
+    height: 21px;
+    stroke-width: 1.7;
+}
+
+.service-card>a svg {
+    width: 14px;
+    transition: transform .2s;
+}
+
+.service-card:hover>a svg {
+    transform: translate(3px, -2px);
+}
+
+.express-tag svg {
+    width: 22px;
+}
+
+.check-list svg {
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    border-radius: 50%;
+    color: var(--blue);
+    background: #e2ebff;
+}
+
+.flowline>svg {
+    width: 12px;
+    height: 12px;
+    flex: 0 0 auto;
+    color: #7890b0;
+}
+
+.dash-title svg {
+    width: 18px;
+    color: #8290a2;
+}
+
+.dash-metrics small svg {
+    width: 10px;
+    height: 10px;
+    color: #28a879;
+}
+
+.dash-footer svg {
+    width: 11px;
+    height: 11px;
+    color: var(--blue);
+}
+
+.dash-float>span svg {
+    width: 16px;
+}
+
+.solution-grid article>svg {
+    width: 21px;
+    height: 21px;
+    color: var(--blue);
+    stroke-width: 1.7;
+}
+
+.network-visual-head>span svg {
+    width: 15px;
+    height: 15px;
+    color: var(--blue);
+}
+
+.global-map-caption svg {
+    width: 16px;
+    height: 16px;
+}
+
+.journey-flow>div>svg {
+    width: 17px;
+    height: 17px;
+    flex: 0 0 auto;
+    color: var(--blue);
+}
+
+.transport-modes>div>svg {
+    width: 17px;
+    height: 17px;
+    flex: 0 0 auto;
+    color: var(--blue);
+}
+
+.india-network-title>svg {
+    width: 14px;
+    height: 14px;
+    color: var(--blue);
+}
+
+.quote-assurance>svg {
+    width: 23px;
+    color: var(--blue);
+}
+
+.why-grid article>svg {
+    width: 21px;
+    height: 21px;
+    color: var(--blue);
+    stroke-width: 1.7;
+}
+
+.tech-list svg {
+    width: 13px;
+    height: 13px;
+    color: var(--orange);
+}
+
+.tech-link svg {
+    width: 14px;
+}
+
+.mini-brand .brand-symbol svg {
+    width: 14px;
+    height: 14px;
+}
+
+.tech-sidebar>span svg {
+    width: 14px;
+    height: 14px;
+}
+
+.tech-topline button svg {
+    width: 13px;
+}
+
+.performance-title svg {
+    width: 10px;
+}
+
+.tech-bottom-row>div>svg:first-child {
+    width: 14px;
+    color: var(--blue);
+}
+
+.tech-bottom-row>div>svg:last-child {
+    width: 11px;
+    margin-left: auto;
+    color: #8a98aa;
+}
+
+.slider-controls svg {
+    width: 16px;
+}
+
+.social-links svg {
+    width: 13px;
+    height: 13px;
+}
+
+.footer-column>button svg {
+    display: none;
+    width: 13px;
+    height: 13px;
+}
+@media (max-width: 800px) {
+
+    .mega-menu>a>svg {
+        width: 17px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .hero-actions .button svg {
+        width: 13px;
+    }
+
+    .tracking-form>svg {
+        width: 15px;
+    }
+
+    .tracking-form .button svg {
+        width: 13px;
+    }
+    .flowline>svg {
+        width: 10px;
+    }
+    .global-map-caption svg {
+        width: 13px;
+        height: 13px;
+    }
+    .journey-flow>div>svg {
+        width: 14px;
+        height: 14px;
+    }
+    .footer-column>button svg {
+        display: block;
+        transition: transform .2s;
+    }
+    .footer-column.collapsed>button svg {
+        transform: rotate(45deg);
+    }
+}
