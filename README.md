@@ -143,21 +143,7 @@ CHOWRA-LOGISTICS/
 └── README.md
 
 
-## Demo
 
-Live Demo:
-
-[ADD PUBLIC LIVE DEMO URL]
-
-## Repository
-
-GitHub:
-
-[ADD GITHUB REPOSITORY URL]
-
-## Author
-
-**Tharun Reddy**
 
 Technical Round Assignment – Chowra Logistics
 
